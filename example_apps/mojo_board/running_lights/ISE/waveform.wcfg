@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/kb3gtn/sandbox/mojo_board/running_lights/ISE/testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/testbench/clk50m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk50m</obj_property>
+      <obj_property name="ObjectShortName">clk50m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/cclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cclk</obj_property>
+      <obj_property name="ObjectShortName">cclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serial_rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">serial_rx</obj_property>
+      <obj_property name="ObjectShortName">serial_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/uart_rx_d1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_rx_d1</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk50m_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk50m_period</obj_property>
+      <obj_property name="ObjectShortName">clk50m_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_start_det" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_start_det</obj_property>
+      <obj_property name="ObjectShortName">rx_start_det</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_symbol_ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_symbol_ce</obj_property>
+      <obj_property name="ObjectShortName">rx_symbol_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_symbol_complete" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_symbol_complete</obj_property>
+      <obj_property name="ObjectShortName">rx_symbol_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_symbol_complete_d1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_symbol_complete_d1</obj_property>
+      <obj_property name="ObjectShortName">rx_symbol_complete_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/uart_rx_d1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_rx_d1</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_byte_working" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_byte_working[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_byte_working[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_byte_last_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_byte_last_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_byte_last_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_gen_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_gen_state</obj_property>
+      <obj_property name="ObjectShortName">rx_gen_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/rx_symbol_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_symbol_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_symbol_count[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/divider_count_div2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">divider_count_div2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">divider_count_div2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/divider_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">divider_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">divider_count[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/tx_byte_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_byte_valid</obj_property>
+      <obj_property name="ObjectShortName">tx_byte_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/tx_byte_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_byte_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_byte_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/tx_byte_working" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_byte_working[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_byte_working[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/o_tx_send_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_tx_send_busy</obj_property>
+      <obj_property name="ObjectShortName">o_tx_send_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/tx_symbol_ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_symbol_ce</obj_property>
+      <obj_property name="ObjectShortName">tx_symbol_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/tx_symbol_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_symbol_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_symbol_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/uart_1/tx_gen_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_gen_state</obj_property>
+      <obj_property name="ObjectShortName">tx_gen_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serial_tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">serial_tx</obj_property>
+      <obj_property name="ObjectShortName">serial_tx</obj_property>
+   </wvobject>
+</wave_config>
