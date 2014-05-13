@@ -7,7 +7,7 @@ A Simple Serial UART design in VHDL for an FPGA.
 VHDL Templates
 ----------------
 
-
+<pre>
    component uart is
     port (
         i_clk                 : in    std_logic;  -- system clock
@@ -44,4 +44,4 @@ VHDL Templates
         i_rx_read_rd            => rx_byte_rd       -- ack reading of the data.. 
     );
 
-
+</pre>
