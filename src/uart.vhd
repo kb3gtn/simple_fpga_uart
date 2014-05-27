@@ -243,7 +243,6 @@ begin
                     if ( rx_symbol_count = divider_count ) then
                         rx_symbol_count <= (others=>'0');
                         rx_symbol_ce <= '1'; -- sample bit..
-                        rx_symbol_complete <= '1';
                         rx_gen_state <= 11;
                     else
                         rx_symbol_count <= rx_symbol_count + 1;
@@ -253,10 +252,16 @@ begin
                     -- wait for stop bit, before resetting
                     -- this stops a stuck '1' line from spitting out a bunch of 0xff's
                     -- wait until the line goes idle..
-                    rx_symbol_complete <= '0';
-                    rx_symbol_ce <= '0';
-                    if ( uart_rx = '0' ) then
-                        rx_gen_state <= 0;  -- ready for next byte
+                    if ( rx_symbol_count = divider_count ) then 
+                        rx_symbol_count <= (others=>'0');
+                        rx_symbol_ce <= '0';
+                        if ( uart_rx = '1' ) then
+                            rx_symbol_complete <= '1';
+                            rx_gen_state <= 0;  -- ready for next byte
+                        end if;
+                    else
+                        rx_symbol_count <= rx_symbol_count + 1;
+                        rx_symbol_ce <= '0';
                     end if;
                 when others =>
                     rx_gen_state <= 0; -- should never happen, reset if it does.
